@@ -13,6 +13,8 @@ public class MyEnemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Need to set down waypoints
+
         
     }
 

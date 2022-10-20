@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class MyPlayer : MonoBehaviour
 {
     public GameObject plain;
     private int speed = 1;
