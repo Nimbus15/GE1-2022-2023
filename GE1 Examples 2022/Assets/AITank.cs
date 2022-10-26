@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AITank : MonoBehaviour
 {
+    public Transform playerTarget;
+    public Transform aiTransform;
     public List<Vector3> waypoints;
     public int count = 5;
     public float radius = 5;
@@ -41,6 +43,11 @@ public class AITank : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +64,14 @@ public class AITank : MonoBehaviour
         if (dist < 1.0f)
         {
             current = (current + 1) % waypoints.Count;
+        }
+        if(playerTarget != null){
+            // if(aiTransform != null){
+            //     aiTransform.LookAt(playerTarget);
+            //     aiTransform.position += aiTransform.forward * speed * Time.deltaTime;
+            //     Debug.Log("Player is in front");
+            // }
+          
         }
         transform.LookAt(waypoints[current]);
         transform.Translate(0, 0, speed * Time.deltaTime);
