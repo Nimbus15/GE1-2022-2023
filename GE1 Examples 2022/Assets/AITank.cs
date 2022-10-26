@@ -71,6 +71,9 @@ public class AITank : MonoBehaviour
             //     aiTransform.position += aiTransform.forward * speed * Time.deltaTime;
             //     Debug.Log("Player is in front");
             // }
+            // else{
+            //       Debug.Log("Player is behind");
+            // }
           
         }
         transform.LookAt(waypoints[current]);
