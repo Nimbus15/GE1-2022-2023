@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 294542731}
   - component: {fileID: 294542730}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: FollowerCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
