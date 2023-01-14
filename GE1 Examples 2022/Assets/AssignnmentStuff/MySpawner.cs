@@ -24,7 +24,7 @@ public class MySpawner : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Portal1") && ActionController.instance.machineState == MachineState.MACHINE_ON)
         {
-            //StartCoroutine(Spawn());
+            StartCoroutine(Spawn());
             
         }
     }

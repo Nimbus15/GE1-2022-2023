@@ -128,6 +128,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f884cd95cd5aae54ea6cba8cc0d588b1, type: 3}
@@ -179,6 +180,7 @@ PrefabInstance:
       value: Portal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: f884cd95cd5aae54ea6cba8cc0d588b1, type: 3}
 --- !u!1 &751573019
 GameObject:
@@ -363,6 +365,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e5c5b828edfdd634ab9b9d0fd4938f31, type: 3}
@@ -414,6 +417,7 @@ PrefabInstance:
       value: Structure
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e5c5b828edfdd634ab9b9d0fd4938f31, type: 3}
 --- !u!1 &2121750371
 GameObject:
