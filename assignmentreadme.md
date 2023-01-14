@@ -1,23 +1,22 @@
 # Project Title
 
-Name:
+Name: Alex Bang 
+Student Number: C19409486
 
-Student Number: 
-
-Class Group:
-
-Video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+Class Group: TU856/4
 
 # Description of the project
+This is a simulation of a time machine 
 
 # Instructions for use
-
+Just step into the platform in the middle of the time machine and watch it work
 
 # How it works
+The user will step into the platform,
+The user's movement will be disabled,
+All the magic will automatically happen.
 
-# List of classes/assets in the project
+# List of classes/assets in the project and whether made yourself or modified or if its from a source, please give the reference
 
 | Class/asset | Source |
 |-----------|-----------|
